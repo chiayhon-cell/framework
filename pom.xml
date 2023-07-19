@@ -26,7 +26,7 @@
   </modules>
 
   <properties>
-    <!-- 二方包版本 -->
+    <!-- framework 版本 -->
     <revision>1.1.0-SNAPSHOT</revision>
   </properties>
 
