@@ -2,12 +2,13 @@ package cn.chiayhon.framework.entity;
 
 import java.io.Serializable;
 
+
 /**
  * 统一定义id的Entity基础类
  */
 public abstract class IdEntity implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = Constant.DEFAULT_SERIAL_VERSION_ID;
 
     /**
      * 主键id
