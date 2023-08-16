@@ -23,6 +23,7 @@
   <modules>
     <module>framework-orm</module>
     <module>framework-test</module>
+    <module>framework-bom</module>
   </modules>
 
   <properties>
