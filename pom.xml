@@ -59,6 +59,14 @@
         <artifactId>mybatis-plus-boot-starter</artifactId>
         <version>${mybatis.plus.starter.version}</version>
       </dependency>
+      <!-- mybatis plus end-->
+      <!-- mybatis-plus-test start-->
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter-test</artifactId>
+        <version>${mybatis.plus.starter.version}</version>
+      </dependency>
+      <!-- mybatis-plus-test end-->
     </dependencies>
   </dependencyManagement>
 
