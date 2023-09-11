@@ -14,24 +14,20 @@
 
     <dependencies>
 
-        <!-- 常用的orm框架:
-            1. spring data jpa
-            2. spring jdbc
-            3. mybatis
-            4. mybatis-plus
-            5. hibernate
-        -->
-        <!-- mybatis -->
+        <!-- mybatis plus start-->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
-        <!-- spring boot jpa -->
+        <!-- mybatis plus end-->
+
+        <!-- spring boot jpa start -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- spring boot jpa end -->
 
         <!-- 常用的数据库:
             1. Mysql
