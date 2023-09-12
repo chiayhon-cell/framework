@@ -15,5 +15,5 @@ import java.lang.annotation.*;
 @Inherited
 @Sql(scripts = {"classpath:./sql/drop_tables.sql", "classpath:./sql/create_tables.sql"})
 @SqlMergeMode(SqlMergeMode.MergeMode.MERGE)
-public @interface TablesCreateTestSupport {
+public @interface TablesTestSupport {
 }
