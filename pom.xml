@@ -28,7 +28,7 @@
 
   <properties>
     <!-- framework 版本 -->
-    <revision>1.1.0-SNAPSHOT</revision>
+    <revision>${framework.version}</revision>
   </properties>
 
   <dependencyManagement>
