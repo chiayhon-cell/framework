@@ -13,6 +13,14 @@
     <name>framework-test</name>
 
     <dependencies>
+
+        <!-- lombok start-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- lombok end-->
+
         <!-- spring boot test dependency -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
